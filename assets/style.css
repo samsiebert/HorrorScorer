@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+}
+
+.card {
+    height: 10em;
+    margin: 1em 0 1em 0;
+}
+
+.card-body {
+    background-size: 7em 10em;
+}
