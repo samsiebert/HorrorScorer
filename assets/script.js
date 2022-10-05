@@ -24,14 +24,15 @@ var fetchRequest = function() {
     for (var j = 0; j < movieArr.length; j++) {
 
         var cardColumn = document.createElement("div")
-        cardColumn.classList.add("col-3", "card-column");
+        cardColumn.classList.add("col-sm-12", "col-md-6", "col-lg-3", "card-column");
 
         var card = document.createElement("div", "card");
-        card.classList.add("card", "bg-primary");
+        card.classList.add("card");
 
         var cardBody = document.createElement("div");
         cardBody.classList.add("card-body", "p-2");
-        cardBody.style.backgroundImage = `url(https://image.tmdb.org/t/p/original${movieArr[j].path})`
+        cardBody.style.backgroundImage = `url(https://image.tmdb.org/t/p/original${movieArr[j].path})`;
+        cardBody.style.backgroundRepeat = "no-repeat";
         
         // var cardTitle = document.createElement("h3");
         // cardTitle.classList.add("card-title", "text-white");

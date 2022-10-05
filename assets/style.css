@@ -3,10 +3,12 @@ body {
 }
 
 .card {
-    height: 10em;
+    height: 30em;
     margin: 1em 0 1em 0;
+    background-color: red;
 }
 
 .card-body {
-    background-size: 7em 10em;
+    background-size: cover;
+
 }
