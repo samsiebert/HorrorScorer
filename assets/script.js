@@ -24,7 +24,7 @@ var fetchRequest = function() {
     for (var j = 0; j < movieArr.length; j++) {
 
         var cardColumn = document.createElement("div")
-        cardColumn.classList.add("col-sm-12", "col-md-6", "col-lg-3", "card-column");
+        cardColumn.classList.add("col-md-6", "col-lg-4", "col-xl-3", "card-column");
 
         var card = document.createElement("div", "card");
         card.classList.add("card");
